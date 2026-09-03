@@ -10,7 +10,7 @@ const client = new Client({
 
 try {
   const transport = new StreamableHTTPClientTransport(
-    new URL("http://localhost:3001/mcp")
+    new URL("http://localhost:8080/mcp")
   );
 
   await client.connect(transport);
